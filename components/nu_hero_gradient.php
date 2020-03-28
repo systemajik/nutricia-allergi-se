@@ -41,7 +41,7 @@ function register_nu_hero_gradient() {
 
   fusion_builder_map( 
       array(
-          'name'            => esc_attr__( 'Hero', 'fusion-builder' ),
+          'name'            => esc_attr__( 'Hero Gradient', 'fusion-builder' ),
           'shortcode'       => 'nu_hero_gradient',
           'icon'       => 'fusiona-newspaper',
           'allow_generator' => true,

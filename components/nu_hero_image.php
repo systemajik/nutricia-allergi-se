@@ -2,7 +2,7 @@
 
 //box shortcode
 //--------------------------------------------------------------
-function nu_hero($atts, $content = null) {
+function nu_hero_image($atts, $content = null) {
   
   //1. create attributes
   extract(shortcode_atts([
@@ -18,7 +18,7 @@ function nu_hero($atts, $content = null) {
   //3. begin output buffer (paste code and variables in here)
   ob_start(); ?>
 
-<div class="nu-hero">
+<div class="nu-hero-image">
   <img src="<?php echo $img; ?>"/>
   <h1 class="nu-title"><?php echo $title; ?></h1>
 </div>
@@ -33,17 +33,17 @@ function nu_hero($atts, $content = null) {
 //end function
 
 //4. add shortcode
-add_shortcode('nu_hero', 'nu_hero');
+add_shortcode('nu_hero_image', 'nu_hero_image');
 
 //5. register shortcode with fusion builder
 
 
-function register_nu_hero() {
+function register_nu_hero_image() {
 
   fusion_builder_map( 
       array(
           'name'            => esc_attr__( 'Hero', 'fusion-builder' ),
-          'shortcode'       => 'nu_hero',
+          'shortcode'       => 'nu_hero_gradient',
           'icon'       => 'fusiona-newspaper',
           'allow_generator' => true,
           'params'          => array(
@@ -72,6 +72,6 @@ function register_nu_hero() {
       ) 
   );
   }
-  add_action( 'fusion_builder_before_init', 'register_nu_hero' );
+  add_action( 'fusion_builder_before_init', 'register_nu_hero_image' );
 
 //--------------------------------------------------------------

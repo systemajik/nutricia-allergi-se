@@ -89,7 +89,7 @@
 
 .nu-hero-grey-box {
   width: 70%;
-  height: 100px;
+  height: auto;
   padding: 20px;
   background-color:#f4f4f4;
   border-radius: 5px;

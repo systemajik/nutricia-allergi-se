@@ -45,7 +45,7 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: #fff!important;
 }
 
 @-webkit-keyframes scale-in-center {

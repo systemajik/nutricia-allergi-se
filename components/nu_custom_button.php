@@ -73,6 +73,6 @@ function register_nu_custom_button() {
       ) 
   );
   }
-  add_action( 'fusion_builder_before_init', 'register_nu_hero_gradient' );
+  add_action( 'fusion_builder_before_init', 'register_nu_custom_button' );
 
 //--------------------------------------------------------------

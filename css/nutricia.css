@@ -158,4 +158,6 @@ blockquote::before {
   font-size:1.3125rem;
   color: #2B3C90;
   margin-left:60px;
+  text-align: justify;
+  text-indent:0px;
 }

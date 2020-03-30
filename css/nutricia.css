@@ -172,10 +172,6 @@ blockquote::before {
   margin-bottom: 20px!important;
 }
 
-body {
-  background:#000;
-}
-
 .nu-special-button .nu-button {
   background-color: rgba(43,60,144,0);
   padding-left:25px;
@@ -184,9 +180,9 @@ body {
   padding-bottom:15px;
   color:#2B3C90!important;
   border-radius:35px;
-   transition: background, color .25s ease-in-out!important;
-   -moz-transition: background, color .25s ease-in-out!important;
-   -webkit-transition: background, color .25s ease-in-out!important;
+   transition: background-color .25s ease-in-out!important;
+   -moz-transition: background-coor .25s ease-in-out!important;
+   -webkit-transition: background-color .25s ease-in-out!important;
   text-decoration:none;
   cursor: pointer;
 

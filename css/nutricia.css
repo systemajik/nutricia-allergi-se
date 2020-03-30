@@ -142,7 +142,7 @@ blockquote, .post-content blockquote {
   font-style: normal!important;
   text-indent: 20px!important;
 }
-blockquote::before, .post-content blockquote::before {
+blockquote::before {
   color: #2B3C90;
   content: open-quote;
   font-size: 4em;

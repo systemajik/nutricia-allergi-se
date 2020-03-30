@@ -176,13 +176,13 @@ body {
   background:#000;
 }
 
-.nu-button {
+.nu-special-button .nu-button {
   background-color: rgba(43,60,144,0);
   padding-left:25px;
   padding-right:25px;
   padding-top:15px;
   padding-bottom:15px;
-  color:#2B3C90;
+  color:#2B3C90!important;
   border-radius:35px;
    transition: background, color .25s ease-in-out;
    -moz-transition: background, color .25s ease-in-out;
@@ -192,14 +192,14 @@ body {
 
 }
 
-.nu-button:hover {
+.nu-special-button .nu-button:hover {
   background-color:#2B3C90;
-  color:#ffffff;
+  color:#ffffff!important;
   opacity: 1;
 
 }
 
-.nu-button::before {
+.nu-special-button .nu-button::before {
   content:" > ";
   position:relative;
   left:-20px;
@@ -213,6 +213,6 @@ body {
   border:1px solid #fff;
 }
 
-.nu-button:active {
+.nu-special-button .nu-button:active {
   transform: translateY(4px);
 }

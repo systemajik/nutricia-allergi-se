@@ -132,7 +132,7 @@
   background-image: linear-gradient(to right, #2B3C90, #51338B)!important;
 }
 
-.post-content .blockquote {
+.post-content blockquote {
   margin: 1.5em 10px;
   background-color:transparent;
   padding: 0.5em 10px;
@@ -141,7 +141,7 @@
   border-color:#51338B;
   font-style: normal;
 }
-.blockquote::before {
+blockquote::before {
   color: #2B3C90;
   content: open-quote;
   font-size: 4em;
@@ -150,7 +150,7 @@
   vertical-align: -0.4em;
   font-family: Bariol;
 }
-.post-content .blockquote p {
+.post-content blockquote p {
   display: inline;
   font-size:1.3125rem;
   color: #2B3C90;

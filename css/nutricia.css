@@ -139,7 +139,7 @@
   quotes: "\201C""\201D""\2018""\2019";
   border-left:none!important;
   border-color:#51338B;
-  font-style: normal;
+  font-style: normal!important;
 }
 blockquote::before {
   color: #2B3C90;

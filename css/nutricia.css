@@ -128,6 +128,12 @@
   color: #ffffff;
 }
 
+.nu-teaser {
+  font-family: Bariol;
+  font-weight:400;
+  font-size: 2.0625rem;
+}
+
 .fusion-page-title-bar {
   background-image: linear-gradient(to right, #2B3C90, #51338B)!important;
 }

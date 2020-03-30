@@ -151,7 +151,7 @@ blockquote::before {
   vertical-align: -0.4em;
   font-family:'Times New Roman', Times, serif!important;
   position:relative;
-  top:30px;
+  top:40px;
   left:0;
 }
 .post-content blockquote p {

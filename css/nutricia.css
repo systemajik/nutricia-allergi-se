@@ -217,4 +217,8 @@ blockquote::before {
   .mobile-centered {
     text-align: center;
   }
+
+  .teaser-row {
+    background-color:#f2f2f2;
+  }
 }

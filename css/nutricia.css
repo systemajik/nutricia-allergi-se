@@ -160,5 +160,5 @@ blockquote::before {
   margin-left:70px;
   text-align: justify;
   text-indent:0px;
-  margin-bottom:20px;
+  margin-bottom:20px!important;
 }

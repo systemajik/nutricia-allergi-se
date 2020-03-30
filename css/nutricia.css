@@ -171,3 +171,48 @@ blockquote::before {
 .post-content blockquote :last-child {
   margin-bottom: 20px!important;
 }
+
+body {
+  background:#000;
+}
+
+.nu-button {
+  background-color: rgba(43,60,144,0);
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:15px;
+  padding-bottom:15px;
+  color:#2B3C90;
+  border-radius:35px;
+   transition: background, color .25s ease-in-out;
+   -moz-transition: background, color .25s ease-in-out;
+   -webkit-transition: background, color .25s ease-in-out;
+  text-decoration:none;
+  cursor: pointer;
+
+}
+
+.nu-button:hover {
+  background-color:#2B3C90;
+  color:#ffffff;
+  opacity: 1;
+
+}
+
+.nu-button::before {
+  content:" > ";
+  position:relative;
+  left:-20px;
+  background-color:#2B3C90;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:12px;
+  padding-right:12px;
+  border-radius:30px;
+  color:#ffffff;
+  border:1px solid #fff;
+}
+
+.nu-button:active {
+  transform: translateY(4px);
+}

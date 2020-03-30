@@ -180,9 +180,9 @@ blockquote::before {
   padding-bottom:15px;
   color:#2B3C90!important;
   border-radius:35px;
-   transition: background-color .25s ease-in-out!important;
-   -moz-transition: background-coor .25s ease-in-out!important;
-   -webkit-transition: background-color .25s ease-in-out!important;
+   transition: background-color 0.25s ease-in-out;
+   -moz-transition: background-color 0.25s ease-in-out;
+   -webkit-transition: background-color 0.25s ease-in-out;
   text-decoration:none;
   cursor: pointer;
 

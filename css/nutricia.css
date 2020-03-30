@@ -132,7 +132,7 @@
   background-image: linear-gradient(to right, #2B3C90, #51338B)!important;
 }
 
-blockquote, .post-content blockquote {
+.fusion-post-content blockquote, blockquote, .post-content blockquote {
   margin:0px!important;
   background-color:transparent!important;
   padding: 0px!important;

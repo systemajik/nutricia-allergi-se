@@ -191,8 +191,6 @@ blockquote::before {
 .nu-special-button .nu-button:hover {
   background-color:rgba(43,60,144,1);
   color:#ffffff!important;
-  opacity: 1;
-
 }
 
 .nu-special-button .nu-button::before {

@@ -133,10 +133,7 @@
 }
 
 blockquote, .fusion-post-content blockquote, .post-content blockquote {
-  margin-top:0px!important;
-  margin-bottom:20px!important;
-  margin-left:0px!important;
-  margin-right:0px!important;
+  margin:0px!important;
   background-color:transparent!important;
   padding: 0px!important;
   quotes: "\201C""\201D""\2018""\2019";
@@ -163,4 +160,5 @@ blockquote::before {
   margin-left:70px;
   text-align: justify;
   text-indent:0px;
+  margin-bottom:20px;
 }

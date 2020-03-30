@@ -140,6 +140,7 @@ blockquote, .post-content blockquote {
   border-left:none!important;
   border-color:#51338B;
   font-style: normal!important;
+  text-indent: 20px;
 }
 blockquote::before, .post-content blockquote::before {
   color: #2B3C90;
@@ -148,7 +149,7 @@ blockquote::before, .post-content blockquote::before {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
-  font-family: Bariol!important;
+  font-family:'Times New Roman', Times, serif;
 }
 .post-content blockquote p {
   display: inline;

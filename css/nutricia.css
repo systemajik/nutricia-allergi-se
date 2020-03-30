@@ -127,3 +127,7 @@
 .nu-white {
   color: #ffffff;
 }
+
+.fusion-page-title-bar {
+  background-image: linear-gradient(to right, #2B3C90, #51338B)!important;
+}

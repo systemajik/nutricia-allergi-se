@@ -9,6 +9,8 @@ define( 'DR_DEV_MODE', true );
 //load shortcodes from individual files
 require_once(__DIR__ . '/components/nu_hero_image.php');
 require_once(__DIR__ . '/components/nu_hero_gradient.php');
+require_once(__DIR__ . '/components/nu_custom_button.php');
+
 
 //register and enqueue additional styles and scripts
 

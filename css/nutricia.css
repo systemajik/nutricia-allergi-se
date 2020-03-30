@@ -133,9 +133,9 @@
 }
 
 blockquote, .post-content blockquote {
-  margin:0;
+  margin-top:0px;
   background-color:transparent!important;
-  padding: 0.5em 10px;
+  padding: 0px;
   quotes: "\201C""\201D""\2018""\2019";
   border-left:none!important;
   border-color:#51338B;

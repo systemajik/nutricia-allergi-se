@@ -173,6 +173,7 @@ blockquote::before {
 }
 
 .nu-special-button .nu-button {
+  font-size:16px;
   background-color: rgba(43,60,144,0);
   padding-left:25px;
   padding-right:25px;

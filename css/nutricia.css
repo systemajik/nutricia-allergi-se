@@ -179,14 +179,14 @@ blockquote::before {
   padding-top:15px;
   padding-bottom:15px;
   color:#2B3C90!important;
+  font-family: Bariol Bold!important;
+  font-weight: 700;
   border-radius:35px;
    transition: background-color 0.25s ease-in-out;
    -moz-transition: background-color 0.25s ease-in-out;
    -webkit-transition: background-color 0.25s ease-in-out;
   text-decoration:none;
   cursor: pointer;
-  font-family: Bariol Bold!important;
-
 }
 
 .nu-special-button .nu-button:hover {

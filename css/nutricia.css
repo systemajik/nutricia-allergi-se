@@ -221,4 +221,8 @@ blockquote::before {
   .teaser-row {
     background-color:#f2f2f2!important;
   }
+
+  .teaser-unit {
+    padding:10px;
+  }
 }

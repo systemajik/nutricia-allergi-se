@@ -185,7 +185,7 @@ blockquote::before {
    -webkit-transition: background-color 0.25s ease-in-out;
   text-decoration:none;
   cursor: pointer;
-
+  font-family: Bariol Bold;
 }
 
 .nu-special-button .nu-button:hover {

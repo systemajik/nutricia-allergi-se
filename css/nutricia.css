@@ -223,6 +223,6 @@ blockquote::before {
   }
 
   .teaser-unit .fusion-column-wrapper {
-    padding:10px;
+    padding:10px!important;
   }
 }

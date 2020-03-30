@@ -133,7 +133,7 @@
 }
 
 .fusion-post-content blockquote, blockquote, .post-content blockquote {
-  margin:0px!important;
+  margin:0px 0px 20px 0px;
   background-color:transparent!important;
   padding: 0px!important;
   quotes: "\201C""\201D""\2018""\2019";

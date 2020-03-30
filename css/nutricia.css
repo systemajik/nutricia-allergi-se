@@ -150,9 +150,12 @@ blockquote::before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
   font-family:'Times New Roman', Times, serif!important;
+  position:relative;
+  top:30px;
+  left:0;
 }
 .post-content blockquote p {
-  display: inline;
   font-size:1.3125rem;
   color: #2B3C90;
+  margin-left:60px;
 }

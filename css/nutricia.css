@@ -131,3 +131,22 @@
 .fusion-page-title-bar {
   background-image: linear-gradient(to right, #2B3C90, #51338B)!important;
 }
+
+blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #2B3C90;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-size:1.3125rem;
+  color: #2B3C90;
+}

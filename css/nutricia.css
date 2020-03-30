@@ -149,7 +149,7 @@ blockquote::before, .post-content blockquote::before {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif!important;
 }
 .post-content blockquote p {
   display: inline;

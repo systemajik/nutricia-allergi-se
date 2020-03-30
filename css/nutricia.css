@@ -225,4 +225,8 @@ blockquote::before {
   .teaser-unit .fusion-column-wrapper {
     padding:10px!important;
   }
+
+  .nu-teaser {
+    font-size: 16px;
+  }
 }

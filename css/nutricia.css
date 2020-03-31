@@ -232,12 +232,12 @@ blockquote::before {
 }
 
   @media screen and (min-width: 320px) {
-    h1 {
+    html h1 {
       font-size: calc(24px + 6 * ((100vw - 320px) / 680));
     } 
   }
   @media screen and (min-width: 1000px) {
-    h1 {
+    html h1 {
       font-size: 32px;
     }
   }

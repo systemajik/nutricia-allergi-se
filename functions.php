@@ -43,6 +43,7 @@ function my_mce_before_init_insert_formats( $init_array ) {
   * Wrapper whether or not to add a new block-level element around any selected elements
   */
           array(  
+<<<<<<< HEAD
               'title' => 'Content Block',  
               'block' => 'span',  
               'classes' => 'content-block',
@@ -56,6 +57,8 @@ function my_mce_before_init_insert_formats( $init_array ) {
               'wrapper' => true,
           ),
           array(  
+=======
+>>>>>>> cdb8c98565dfdb67484053393ec187fe2a039cc2
               'title' => 'Red Button',  
               'block' => 'span',  
               'classes' => 'red-button',

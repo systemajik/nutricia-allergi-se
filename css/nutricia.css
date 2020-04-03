@@ -213,6 +213,18 @@ blockquote::before {
   transform: translateY(4px);
 }
 
+@media screen and (max-width: 1000px) {
+
+  .fusion-page-title-bar .fusion-page-title-row h1 {
+    font-size:8vw!important;
+  }
+
+}
+
+
+
+
+
 @media screen and (max-width: 800px) {
   .mobile-centered {
     text-align: center;
@@ -228,10 +240,6 @@ blockquote::before {
 
   .nu-teaser {
     font-size: 16px!important;
-  }
-
-  .fusion-page-title-bar .fusion-page-title-row h1 {
-    font-size:8vw!important;
   }
 
 }

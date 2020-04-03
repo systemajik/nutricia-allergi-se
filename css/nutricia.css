@@ -229,8 +229,17 @@ blockquote::before {
   .nu-teaser {
     font-size: 16px!important;
   }
+
+  .fusion-page-title-bar {
+    font-size:8vw!important;
+  }
+
 }
 
-.red-button {
-  color:#ff0000;
+.nu-font-white {
+  color:#ffffff;
+}
+
+.nu-font-purple {
+  color:#51338B!important;
 }

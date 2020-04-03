@@ -50,17 +50,17 @@ function my_mce_before_init_insert_formats( $init_array ) {
   * Wrapper whether or not to add a new block-level element around any selected elements
   */
           array(  
-              'title' => 'Content Block',  
+              'title' => 'White Text',  
               'block' => 'span',  
-              'classes' => 'content-block',
-              'wrapper' => true,
+              'classes' => 'nu-font-white',
+              'wrapper' => false,
                
           ),  
           array(  
-              'title' => 'Blue Button',  
+              'title' => 'Nutricia Purple',  
               'block' => 'span',  
-              'classes' => 'blue-button',
-              'wrapper' => true,
+              'classes' => 'nu-font-purple',
+              'wrapper' => false,
           ),
           array(  
               'title' => 'Green Button',  

@@ -240,6 +240,10 @@ blockquote::before {
   color:#ffffff;
 }
 
+.nu-h1 {
+  font-size:inherit;
+}
+
 .nu-font-purple {
   color:#51338B!important;
 }

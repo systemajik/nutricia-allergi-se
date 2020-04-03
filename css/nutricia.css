@@ -234,10 +234,6 @@ blockquote::before {
     height:35vh!important;
   }
 
-  .nu-floating-box {
-    margin-top:20px!important;
-  }
-
 }
 
 .nu-font-white {
@@ -257,6 +253,9 @@ blockquote::before {
 @media screen and (max-width: 1000px) {
   .fusion-page-title-bar .fusion-page-title-row h1, .post-content h1, .title h1, .nu-h1 {
     font-size: 6vw!important;
+  }
+  .nu-floating-box {
+    margin-top:20px!important;
   }
   
 }

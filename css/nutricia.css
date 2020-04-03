@@ -248,12 +248,12 @@ blockquote::before {
 
 @media screen and (min-width: 320px) {
   .fusion-page-title-bar .fusion-page-title-row h1 {
-    font-size: calc(24px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(24px + 6 * ((100vw - 320px) / 680))!important;
   }
 }
 @media screen and (min-width: 1000px) {
   .fusion-page-title-bar .fusion-page-title-row h1 {
-    font-size: 60px;
+    font-size: 60px!important;
   }
 } 
 

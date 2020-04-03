@@ -213,14 +213,6 @@ blockquote::before {
   transform: translateY(4px);
 }
 
-@media screen and (max-width: 1000px) {
-
-  .fusion-page-title-bar .fusion-page-title-row h1 {
-    font-size:8vw!important;
-  }
-
-}
-
 
 
 
@@ -251,3 +243,18 @@ blockquote::before {
 .nu-font-purple {
   color:#51338B!important;
 }
+
+/* Fluid Typography & Headers */
+
+@media screen and (min-width: 320px) {
+  .fusion-page-title-bar .fusion-page-title-row h1 {
+    font-size: calc(24px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .fusion-page-title-bar .fusion-page-title-row h1 {
+    font-size: 60px;
+  }
+} 
+
+/* ------------------------------------ */

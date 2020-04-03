@@ -50,23 +50,46 @@ function my_mce_before_init_insert_formats( $init_array ) {
   * Wrapper whether or not to add a new block-level element around any selected elements
   */
           array(  
-              'title' => 'White Text',  
-              'block' => 'span',  
-              'classes' => 'nu-font-white',
-              'wrapper' => false,
-               
-          ),  
-          array(  
-              'title' => 'Nutricia Purple',  
-              'block' => 'span',  
-              'classes' => 'nu-font-purple',
-              'wrapper' => false,
+              'title' => 'Heading 1',  
+              'block' => 'h1',  
+              'classes' => 'nu-h1',
+              'wrapper' => true,
           ),
           array(  
-              'title' => 'Green Button',  
-              'block' => 'span',  
-              'classes' => 'red-button',
-              'wrapper' => true,
+            'title' => 'Heading 2',  
+            'block' => 'h2',  
+            'classes' => 'nu-h2',
+            'wrapper' => true,
+          ),
+          array(  
+            'title' => 'Heading 3',  
+            'block' => 'h3',  
+            'classes' => 'nu-h3',
+            'wrapper' => true,
+          ),
+          array(  
+            'title' => 'Heading 4',  
+            'block' => 'h4',  
+            'classes' => 'nu-h4',
+            'wrapper' => true,
+          ),
+          array(  
+            'title' => 'Heading 5',  
+            'block' => 'h5',  
+            'classes' => 'nu-h5',
+            'wrapper' => true,
+          ),
+          array(  
+            'title' => 'Heading 6',  
+            'block' => 'h6',  
+            'classes' => 'nu-h6',
+            'wrapper' => true,
+          ),
+          array(  
+            'title' => 'Normal Text',  
+            'block' => 'p',  
+            'classes' => '',
+            'wrapper' => true,
           ),
       );  
       // Insert the array, JSON ENCODED, into 'style_formats'

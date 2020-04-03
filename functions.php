@@ -63,7 +63,7 @@ function my_mce_before_init_insert_formats( $init_array ) {
               'wrapper' => true,
           ),
           array(  
-              'title' => 'Red Button',  
+              'title' => 'Green Button',  
               'block' => 'span',  
               'classes' => 'red-button',
               'wrapper' => true,

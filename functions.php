@@ -53,7 +53,7 @@ function my_mce_before_init_insert_formats( $init_array ) {
               'title' => 'Heading 1',  
               'block' => 'h1',  
               'classes' => 'nu-h1',
-              'wrapper' => true,
+              'wrapper' => false,
           ),
           array(  
             'title' => 'Heading 2',  

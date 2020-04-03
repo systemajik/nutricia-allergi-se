@@ -230,7 +230,7 @@ blockquote::before {
     font-size: 16px!important;
   }
 
-  .fusion-page-title-bar {
+  .fusion-page-title-bar .fusion-page-title-row h1 {
     font-size:8vw!important;
   }
 

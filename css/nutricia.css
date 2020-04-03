@@ -234,6 +234,10 @@ blockquote::before {
     font-size: 16px!important;
   }
 
+  .nu-hero-image-mobile, .nu-hero-image-mobile img {
+    height:35vh!important;
+  }
+
 }
 
 .nu-font-white {

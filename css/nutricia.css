@@ -251,12 +251,12 @@ blockquote::before {
 /* Fluid Typography & Headers */
 
 @media screen and (max-width: 1000px) {
-  .fusion-page-title-bar .fusion-page-title-row h1, .nu-h1 {
+  .fusion-page-title-bar .fusion-page-title-row h1, .post-content h1, .title h1, .nu-h1 {
     font-size: 6vw!important;
   }
 }
 @media screen and (min-width: 1000px) {
-  .fusion-page-title-bar .fusion-page-title-row h1, .nu-h1 {
+  .fusion-page-title-bar .fusion-page-title-row h1, .post-content h1, .title h1, .nu-h1 {
     font-size: 60px!important;
   }
 } 

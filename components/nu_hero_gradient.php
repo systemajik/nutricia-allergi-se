@@ -58,7 +58,7 @@ function register_nu_hero_gradient() {
                 'heading'     => esc_attr__( 'Left Column', 'fusion-builder' ),
                 'description' => esc_attr__( 'Left Content', 'fusion-builder' ),
                 'param_name'  => 'leftcol',
-                'value'       => esc_attr__( 'Click edit button to change this text.', 'fusion-builder' ),
+                'value'       => '',
 					      'placeholder' => true,
                ),
                array(
@@ -66,7 +66,7 @@ function register_nu_hero_gradient() {
                 'heading'     => esc_attr__( 'Right Column', 'fusion-builder' ),
                 'description' => esc_attr__( 'Right Content', 'fusion-builder' ),
                 'param_name'  => 'rightcol',
-                'value'       => esc_attr__( 'Click edit button to change this text.', 'fusion-builder' ),
+                'value'       => '',
 					      'placeholder' => true,
                ),
           ),

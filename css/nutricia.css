@@ -270,3 +270,7 @@ blockquote::before {
 .fusion-toggle-heading {
   color:#ffffff;
 }
+
+.fusion-header-has-flyout-menu .fusion-flyout-menu .fusion-mobile-menu li {
+  padding-top:20px;
+}
